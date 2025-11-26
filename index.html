@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>避雷 Lucky（红屿/狼酪）- 感情欺骗曝光</title>
+    <!-- 添加QQ浏览器分享卡片相关元标签 -->
+    <meta name="description" content="详花心出轨 | 装可怜博同情 | 无缝衔接 | 脚踏多条船 - 曝光感情骗子Lucky（红屿/狼酪）">
+    <meta name="keywords" content="避雷,感情骗子,曝光,花心出轨,Lucky,红屿,狼酪">
+    <!-- QQ分享专用标签 -->
+    <meta property="og:title" content="避雷！曝光感情骗子">
+    <meta property="og:description" content="详花心出轨 | 装可怜博同情 | 无缝衔接 | 脚踏多条船">
+    <meta property="og:image" content="https://youke1.picui.cn/s1/2025/11/24/692414e7ee5c2.jpg">
+    <meta property="og:url" content="https://dwz8.site/guatiao">
+    <meta property="og:type" content="article">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Helvetica Neue", Arial, sans-serif;
+        }
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 15px;
+            font-size: 14px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        }
+        
+        /* 响应式基础样式 */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 20px 15px;
+                border-radius: 8px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 5px;
+            }
+            .container {
+                padding: 15px 10px;
+                border-radius: 6px;
+            }
+        }
+        
+        /* 添加安全区域适配，支持刘海屏和底部安全区 */
+        body {
+            padding-top: env(safe-area-inset-top, 15px);
+            padding-bottom: env(safe-area-inset-bottom, 15px);
+            padding-left: env(safe-area-inset-left, 15px);
+            padding-right: env(safe-area-inset-right, 15px);
+        }
+        
+        /* 确保所有可点击元素在移动设备上有足够的点击区域 */
+        @media (max-width: 480px) {
+            img[onclick],
+            a,
+            button,
+            .clickable {
+                min-height: 44px;
+                min-width: 44px;
+                -webkit-tap-highlight-color: transparent;
+                touch-action: manipulation;
+            }
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ff4d4f;
+        }
+        .header h1 {
+            color: #ff4d4f;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 20px;
+                margin-bottom: 8px;
+            }
+        }
+        .warning {
+            color: #ff4d4f;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 15px 0;
+        }
+        
+        @media (max-width: 480px) {
+            .warning {
+                font-size: 16px;
+                margin: 12px 0;
+            }
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        @media (max-width: 480px) {
+            .section {
+                margin-bottom: 20px;
+            }
+        }
+        .section h2 {
+            font-size: 20px;
+            color: #2d3748;
+        }
+        
+        @media (max-width: 480px) {
+            .section h2 {
+                font-size: 18px;
+            }
+        }
+        
+        /* 图片组样式 */
+        .img-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        /* 图片项样式 - 正方形显示 */
+        .img-item {
+            flex: 1;
+            min-width: 150px;
+            max-width: calc(33.333% - 10px);
+            height: 0;
+            padding-bottom: calc(33.333% - 10px); /* 正方形比例 */
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            position: relative;
+        }
+        
+        .img-item:hover {
+            transform: translateY(-3px);
+        }
+        
+        .img-item img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* 保持比例填充整个容器 */
+            transition: opacity 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .img-item img:hover {
+            opacity: 0.9;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .img-item {
+                max-width: calc(50% - 10px);
+                padding-bottom: calc(50% - 10px); /* 保持正方形 */
+                min-width: 120px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .img-item {
+                max-width: 100%;
+                padding-bottom: 100%; /* 保持正方形 */
+                min-width: 100px;
+            }
+        }
+        
+        .section h2 {
+            margin-bottom: 15px;
+            padding-left: 10px;
+            border-left: 4px solid #ff4d4f;
+        }
+        
+        @media (max-width: 480px) {
+            .section h2 {
+                margin-bottom: 12px;
+                padding-left: 8px;
+                border-left-width: 3px;
+            }
+        }
+        .info-list {
+            list-style: none;
+        }
+        .info-list li {
+            margin-bottom: 10px;
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+            line-height: 1.5;
+        }
+        
+        @media (max-width: 480px) {
+            .info-list li {
+                margin-bottom: 8px;
+                padding: 6px 0;
+            }
+        }
+        .info-list li span {
+            font-weight: bold;
+            color: #2d3748;
+            width: 80px;
+            display: inline-block;
+        }
+        .relation-item {
+            background: #fef7fb;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        
+        @media (max-width: 480px) {
+            .relation-item {
+                padding: 12px 10px;
+                margin-bottom: 12px;
+                border-radius: 6px;
+            }
+        }
+        .relation-item h3 {
+            color: #e53e3e;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        
+        @media (max-width: 480px) {
+            .relation-item h3 {
+                font-size: 15px;
+                margin-bottom: 6px;
+            }
+            
+            .relation-item p {
+                font-size: 13px;
+                margin-bottom: 6px;
+                line-height: 1.5;
+            }
+        }
+        .highlight {
+            color: #e53e3e;
+            font-weight: bold;
+        }
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 8px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #ffccd5;
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -26px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #ff4d4f;
+        }
+        
+        @media (max-width: 480px) {
+            .timeline {
+                padding-left: 25px;
+            }
+            
+            .timeline::before {
+                left: 6px;
+                width: 1.5px;
+            }
+            
+            .timeline-item {
+                margin-bottom: 15px;
+            }
+            
+            .timeline-item::before {
+                left: -21px;
+                width: 10px;
+                height: 10px;
+                top: 4px;
+            }
+            
+            .timeline-item p {
+                font-size: 13px;
+                line-height: 1.4;
+            }
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #f0f0f0;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 480px) {
+            .footer {
+                margin-top: 25px;
+                padding-top: 15px;
+                font-size: 12px;
+            }
+        }
+        .prize {
+            background: #fff3cd;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        @media (max-width: 480px) {
+            .prize {
+                padding: 12px 10px;
+                margin: 15px 0;
+                border-radius: 6px;
+            }
+            
+            .prize p {
+                font-size: 13px;
+                margin-bottom: 8px;
+                line-height: 1.4;
+            }
+            
+            .prize p:last-child {
+                margin-bottom: 0;
+            }
+        }
+        /* 移除图片相关样式 */
+        
+        /* 移除图片预览弹窗样式 */
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        
+        <!-- 头部标题 -->
+        <div class="header">
+            <h1>⚠️ 避雷！感情骗子曝光 ⚠️</h1>
+            <p class="warning">花心出轨 | 装可怜博同情 | 无缝衔接 | 脚踏多条船</p>
+        </div>
+
+        <!-- 转发福利 -->
+        <div class="prize">
+            <p class="highlight">转发抽奖福利</p>
+            <p>转发本页面，可参与抽奖</p>
+            <p>奖品：15份 QQ SVIP（20元），可兑现（兑现标准见配图）</p>
+        </div>
+
+        <!-- 核心信息 -->
+        <div class="section">
+            <h2>🔍 避雷对象核心信息</h2>
+            <div class="profile-container">
+                <!-- 左侧个人照片 -->
+                <div class="profile-photo">
+                    <img src="img/psc.jpg" alt="个人照片" onclick="openImageModal('img/psc.jpg')">
+                </div>
+                
+                <!-- 右侧信息列表 -->
+                <div class="profile-info">
+                    <ul class="info-list">
+                        <li><span>圈名：</span>Lucky（别名：红屿、狼酪）</li>
+                        <li><span>坐标：</span>四川成都崇州</li>
+                        <li><span>QQ号：</span>2302859081</li>
+                        <li><span>抖音号：</span>Lucky38126</li>
+                        <li><span>小红书：</span>95433004148</li>
+                        <li><span>快手号：</span>2871367590</li>
+                    </ul>
+                </div>
+            </div>
+            <p style="color: #ff0000;font-size: 34px; font-weight: bold; margin-top: 70px; text-align: center;">如果是黄谣请你拿出证据谢谢！</p>
+        </div>
+        
+        <style>
+            /* 个人资料容器响应式布局 */
+            .profile-container {
+                display: flex;
+                gap: 20px;
+                align-items: flex-start;
+            }
+            
+            .profile-photo {
+                width: 200px;
+                height: 300px;
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .profile-photo img {
+                width: 200%;
+                height: 100%;
+                cursor: pointer;
+                transform: rotate(90deg);
+            }
+            
+            .profile-info {
+                flex: 1;
+            }
+            
+            @media (max-width: 768px) {
+                .profile-container {
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 15px;
+                }
+                
+                .profile-photo {
+                    width: 180px;
+                    height: 250px;
+                    margin-bottom: 10px;
+                }
+                
+                .profile-info {
+                    width: 100%;
+                }
+            }
+            
+            @media (max-width: 480px) {
+                .profile-photo {
+                    width: 160px;
+                    height: 220px;
+                }
+                
+                .info-list li span {
+                    width: 70px;
+                    font-size: 13px;
+                }
+                
+                .info-list li {
+                    font-size: 13px;
+                }
+            }
+        </style>
+
+        <!-- 受害者与感谢 -->
+        <div class="section">
+            <h2>👥 相关人员</h2>
+            <ul class="info-list">
+                <li><span>受害者：</span>@鲨鲨shark、@喜欢躺平の悟华、@四川在逃宜宾燃面（其他受害者可私聊@鲨鲨shark）</li>
+                <li><span>特别感谢：</span>@芬格尔的狗（仅艾特愿意透露的帮助者）</li>
+            </ul>
+        </div>
+
+        <!-- 四段感情详情 -->
+        <div class="section">
+            <h2>💔 四段重叠感情详情</h2>
+            <div class="relation-item">
+                <h3>第①任</h3>
+                <p>确立关系：3月8日 | 分手时间：9月底（①主动分手）</p>
+                <p>分手原因：①发现Lucky主页挂新对象，直接删除拉黑</p>
+            </div>
+            <div class="relation-item">
+                <h3>第②任</h3>
+                <p>确立关系：9月21日（Lucky表白，谎称是初恋） | 面基：9月28日 | 分手：10月3日</p>
+                <p>分手借口：Lucky编造谎言，称②"黄、人品差、摸自己"，实则Lucky主动要求②提供亲密帮助</p>
+                <p>后续：Lucky造谣②，装可怜扮演受害者</p>
+                <!-- 第②任相关图片 -->
+                <div class="img-group">
+                    <div class="img-item">
+                        <img src="img/2.jpg" alt="证据图片2" onclick="openImageModal('img/2.jpg')" style="max-width: 100%; cursor: pointer;">
+                    </div>
+                    <div class="img-item">
+                        <img src="img/2-1.jpg" alt="证据图片2-1" onclick="openImageModal('img/2-1.jpg')" style="max-width: 100%; cursor: pointer;">
+                    </div>
+                </div>
+            </div>
+            <div class="relation-item">
+                <h3>第③任</h3>
+                <p>确立关系：10月5日 | 分手：11月1日</p>
+                <p>分手谎言：先后以"学校抓玩手机/谈恋爱""不想网恋""没发照片"等5个理由欺骗</p>
+                <p>背后行为：在同桌面前骂③"傻逼、烦人"，暗中计划删除</p>
+                
+                <!-- 第③任相关图片 -->
+                <div class="img-group">
+                    <div class="img-item">
+                        <img src="img/3.jpg" alt="证据图片3" onclick="openImageModal('img/3.jpg')" style="max-width: 100%; cursor: pointer;">
+                    </div>
+                    <div class="img-item">
+                        <img src="img/3-1.jpg" alt="证据图片3-1" onclick="openImageModal('img/3-1.jpg')" style="max-width: 100%; cursor: pointer;">
+                    </div>
+                    <div class="img-item">
+                        <img src="img/3-2.jpg" alt="证据图片3-2" onclick="openImageModal('img/3-2.jpg')" style="max-width: 100%; cursor: pointer;">
+                    </div>
+                    <div class="img-item">
+                        <img src="img/3-3.jpg" alt="证据图片3-3" onclick="openImageModal('img/3-3.jpg')" style="max-width: 100%; cursor: pointer;">
+                    </div>
+                    <div class="img-item">
+                        <img src="img/3-4.jpg" alt="证据图片3-4" onclick="openImageModal('img/3-4.jpg')" style="max-width: 100%; cursor: pointer;">
+                    </div>
+                    <div class="img-item">
+                        <img src="img/3-5.jpg" alt="证据图片3-5" onclick="openImageModal('img/3-5.jpg')" style="max-width: 100%; cursor: pointer;">
+                    </div>
+                    <div class="img-item">
+                        <img src="img/3-6.jpg" alt="证据图片3-6" onclick="openImageModal('img/3-6.jpg')" style="max-width: 100%; cursor: pointer;">
+                    </div>
+                    <div class="img-item">
+                        <img src="img/3-7.jpg" alt="证据图片3-7" onclick="openImageModal('img/3-7.jpg')" style="max-width: 100%; cursor: pointer;">
+                    </div>
+                    <div class="img-item">
+                        <img src="img/3-8.jpg" alt="证据图片3-8" onclick="openImageModal('img/3-8.jpg')" style="max-width: 100%; cursor: pointer;">
+                    </div>
+                    <div class="img-item">
+                        <img src="img/3-9.jpg" alt="证据图片3-9" onclick="openImageModal('img/3-9.jpg')" style="max-width: 100%; cursor: pointer;">
+                    </div>
+                </div>
+            </div>
+            <div class="relation-item">
+                <h3>第④任</h3>
+                <p>相识时间：9月 | 现状：仍在恋爱中</p>
+                <p>情况：患有重度抑郁症，恋爱脑，劝不动</p>
+            </div>
+        </div>
+
+        <!-- 时间线梳理 -->
+        <div class="section">
+            <h2>⏰ 关键时间线</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <p><span class="highlight">9月</span>：Lucky同时与①恋爱，还与②③④增进关系；月底与①分手，与②确立关系并面基</p>
+                </div>
+                <div class="timeline-item">
+                    <p><span class="highlight">10月</span>：与②分手后造谣；10月5日与③确立关系，期间与④疑似发生关系，还在酒吧确认关系，以"安慰抑郁症"欺骗③；同时辱骂向自己表白的人</p>
+                </div>
+                <div class="timeline-item">
+                    <p><span class="highlight">11月</span>：1日与③分手，继续与④恋爱；8日②告知③"④在酒吧被撞见"，③开始调查；15日Lucky拉黑③</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 核心欺骗细节 -->
+        <div class="section">
+            <h2>⚠️ 核心欺骗与恶劣行为</h2>
+            <ul class="info-list">
+                <li>多重出轨：9-11月期间同时与4人保持亲密关系，无缝衔接</li>
+                <li>谎言连篇：编造初恋身份、分手理由、个人经历等多个谎言</li>
+                <li>造谣中伤：分手后抹黑前任，装可怜博同情</li>
+                <li>两面三刀：当面讨好伴侣，背后辱骂、计划抛弃</li>
+                <li>沟通无果：被发现后以"想静静""有空再解决"拖延，最终拉黑受害者</li>
+            </ul>
+            <!-- 移除配图11-14 -->
+        </div>
+
+        <!-- 挂条被封致歉 -->
+        <div class="section">
+            <h3>挂条被封致歉说明</h3>
+            <p>由于被他人恶意举报，本人的挂条账号不幸被封禁。在此向所有关注和支持我的朋友表示诚挚的歉意！</p>
+            
+            <!-- 图片展示 -->
+            <div class="img-group">
+                <div class="img-item">
+                    <img src="img/zq.jpg" alt="封禁截图1" onclick="openImageModal('img/zq.jpg')">
+                </div>
+                <div class="img-item">
+                    <img src="img/zq1.jpg" alt="封禁截图2" onclick="openImageModal('img/zq1.jpg')">
+                </div>
+            </div>
+        </div>
+        
+        <!-- 质问内容 -->
+        <div class="section">
+            <h3>质问 Lucky 的借口</h3>
+            <p>这些是你给我的借口，但事实真的如此吗？请给出合理的解释！</p>
+            
+            <!-- 图片展示 -->
+            <div class="img-group">
+                <div class="img-item">
+                    <img src="img/jk.jpg" alt="证据图片1" onclick="openImageModal('img/jk.jpg')">
+                </div>
+                <div class="img-item">
+                    <img src="img/jk1.jpg" alt="证据图片2" onclick="openImageModal('img/jk1.jpg')">
+                </div>
+                <div class="img-item">
+                    <img src="img/jk2.jpg" alt="证据图片3" onclick="openImageModal('img/jk2.jpg')">
+                </div>
+                
+            </div>
+        </div>
+             <!-- 质问内容 -->
+        <div class="section">
+            <h3></h3>
+            <p></p>
+        <div class="img-item">
+                    <img src="img/jk3.jpg" alt="证据图片4" onclick="openImageModal('img/jk3.jpg')">
+                </div>
+        <!-- 转发抽奖 -->
+        <div class="section">
+            <h3>转发到QQ空间 参与抽奖</h3>
+            <p>转发此页面到QQ空间，即可参与抽奖活动！</p>
+            
+            <!-- 抽奖图片 -->
+            <div class="img-group">
+                <div class="img-item">
+                    <img src="img/cj.jpg" alt="抽奖详情" onclick="openImageModal('img/cj.jpg')">
+                </div>
+            </div>
+        </div>
+
+        <!-- 结尾声明 -->
+        <div class="section">
+            <h2>📢 声明</h2>
+            <p>本次曝光仅梳理已知的四段重叠感情，Lucky在此之前已有类似行为。</p>
+            <p>曝光者已多次尝试沟通，均遭拖延拉黑，现选择公开真相，呼吁被伤害者联合抵制，直至Lucky主动认错道歉！</p>
+        </div>
+
+        <div class="footer">
+            <p>本页面为避雷曝光，内容真实可查（所有配图均为真实证据）</p>
+            <p>转发时间：11月22日后转发有效，抽奖兑现以原规则为准</p>
+        </div>
+    </div>
+
+    <!-- 移除图片预览弹窗 -->
+
+    <!-- 移除图片预览相关JavaScript -->
+    <!-- 图片预览模态框 -->
+    <div id="imageModal" class="image-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.9); z-index: 1000; justify-content: center; align-items: center;">
+        <div class="modal-content" style="position: relative; max-width: 90%; max-height: 90%;">
+            <span class="close-modal" style="position: absolute; top: -40px; right: 0; color: white; font-size: 40px; font-weight: bold; cursor: pointer;">&times;</span>
+            <img id="modalImage" src="" alt="预览图片" style="max-width: 100%; max-height: 80vh; transition: transform 0.2s; cursor: zoom-in;">
+            <div class="modal-controls" style="position: absolute; bottom: -30px; left: 50%; transform: translateX(-50%); color: white;">
+                <span style="margin: 0 10px; cursor: pointer;">点击图片放大/缩小</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 获取模态框元素
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        const closeModal = document.getElementsByClassName('close-modal')[0];
+        
+        // 图片缩放状态
+        let isZoomed = false;
+        let currentImageSrc = '';
+        
+        // 打开图片模态框函数
+        function openImageModal(imageSrc) {
+            modal.style.display = 'flex';
+            modalImg.src = imageSrc;
+            currentImageSrc = imageSrc;
+            isZoomed = false;
+            modalImg.style.transform = 'scale(1)';
+            modalImg.style.cursor = 'zoom-in';
+        }
+        
+        // 关闭模态框
+        closeModal.onclick = function() {
+            modal.style.display = 'none';
+        }
+        
+        // 点击模态框背景关闭
+        modal.onclick = function(event) {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        }
+        
+        // 图片点击放大缩小
+        modalImg.onclick = function() {
+            if (isZoomed) {
+                modalImg.style.transform = 'scale(1)';
+                modalImg.style.cursor = 'zoom-in';
+                isZoomed = false;
+            } else {
+                modalImg.style.transform = 'scale(1.5)';
+                modalImg.style.cursor = 'zoom-out';
+                isZoomed = true;
+            }
+        }
+        
+        // 按ESC键关闭模态框
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape' && modal.style.display === 'flex') {
+                modal.style.display = 'none';
+            }
+        });
+        
+        // 移除QQ空间分享功能，使用QQ浏览器自带分享功能
+        // 通过添加的OG标签和meta标签，QQ浏览器会自动生成分享卡片
+    </script>
+</body>
+</html>
